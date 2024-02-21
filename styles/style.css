@@ -28,6 +28,7 @@ h1:hover::before {
   font-weight: 400;
   text-align: left;
   text-transform: none;
+  letter-spacing: normal;
   background-color: #fff;
   box-shadow: 0 14px 0 #000;
   border: 2px solid #000;

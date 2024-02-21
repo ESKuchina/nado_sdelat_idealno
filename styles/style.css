@@ -37,6 +37,8 @@ h1:hover::before {
 
 h1::after {
   content: "*";
+  text-align: left;
+  letter-spacing: 0px;
 }
 
 video {

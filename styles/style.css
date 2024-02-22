@@ -5,15 +5,32 @@ body::before {
   content: "";
   z-index: -1;
 }
+
+video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -10;
+  object-fit: cover;
+  object-position: center;
+}
+
 h1 {
   position: static;
+  max-width: 739px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 60px;
   font-size: 116px;
   font-weight: 800;
   line-height: 136.18px;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 4.06px;
+  letter-spacing: 3.7px;
+}
+
+h1:hover {
+  color: rgba(76, 76, 76, 1);
 }
 
 h1:hover::before {
@@ -38,13 +55,4 @@ h1:hover::before {
 h1::after {
   content: "*";
   letter-spacing: normal;
-}
-
-video {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -2;
-  object-fit: cover;
-  object-position: center;
 }
